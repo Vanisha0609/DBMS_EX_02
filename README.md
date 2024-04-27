@@ -78,6 +78,13 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 #### QUERY:
 ```
+CREATE TABLE Students (
+    rollno INTEGER PRIMARY KEY AUTOINCREMENT,
+    stu_name VARCHAR(50),
+    dob DATE,
+    year VARCHAR(30)
+);
+
 ```
 #### OUTPUT:
 
@@ -87,9 +94,14 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 ![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/db6d3054-cb70-4d46-ba23-badd36bde721)
 
-
 #### QUERY:
 ```
+CREATE TABLE Students (
+    rollno INTEGER PRIMARY KEY AUTOINCREMENT,
+    stu_name VARCHAR(50),
+    year VARCHAR(30)
+);
+
 ```
 #### OUTPUT:
 
@@ -99,14 +111,19 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 ![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/5356bd72-5ac1-4cc2-bc3a-b17b56e3a679)
 
-
 #### QUERY:
 ```
+CREATE TABLE Orders (
+    OrderID INTEGER ,
+    OrderNumber INTEGER,
+    ProductName Varchar(30),
+    PersonID INTEGER NOT NULL
+);
+
 ```
 #### OUTPUT:
 
 ![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/c27f46ff-4215-485d-9414-c1c789c623d2)
-
 
 ## QUESTION 4:
 
@@ -114,6 +131,9 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 #### QUERY:
 ```
+CREATE TABLE employeedetails AS
+SELECT id, first_name, last_name FROM customer WHERE 1=0;
+
 ```
 #### OUTPUT:
 
@@ -126,6 +146,7 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 #### QUERY:
 ```
+ALTER TABLE employee RENAME COLUMN id TO emp_id;
 ```
 #### OUTPUT:
 
@@ -137,6 +158,7 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 #### QUERY:
 ```
+ALTER TABLE employee ADD COLUMN birth_date date;
 ```
 #### OUTPUT:
 
@@ -148,6 +170,12 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 #### QUERY:
 ```
+ALTER TABLE Companies
+ADD COLUMN designation varchar(50);
+
+ALTER TABLE Companies
+ADD COLUMN net_salary number;
+
 ```
 #### OUTPUT:
 
@@ -159,6 +187,13 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 #### QUERY:
 ```
+INSERT INTO Student (RollNo, Name, Gender, Subject, MARKS)
+VALUES 
+    (3, 'Jeni', 'Female', 'English', 96),
+    (4, 'Bob Johnson', 'Male', 'History', 90),
+    (5, 'Sharvesh', 'Male', 'Botany', 97),
+    (6, 'Mathew', 'Male', 'Science', 85);
+
 ```
 #### OUTPUT:
 
@@ -170,6 +205,11 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 #### QUERY:
 ```
+INSERT INTO new_customers (customer_id, name, email)
+SELECT customer_id, name, email
+FROM old_customers
+WHERE email LIKE '%@gmail.com';
+
 ```
 #### OUTPUT:
 
@@ -181,9 +221,15 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 
 #### QUERY:
 ```
+INSERT INTO new_customers (customer_id, name, email)
+SELECT customer_id, name, email
+FROM old_customers
+WHERE email = 'abc@gmail.com';
 ```
 #### OUTPUT:
 ![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/4d5d3d9e-a668-4044-92c9-673eb159e5b4)
 
+# RESULT:
+Thus, we studied and implemented DDL commands and different types of constraints. 
 
 
