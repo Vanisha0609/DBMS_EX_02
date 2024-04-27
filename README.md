@@ -1,4 +1,5 @@
-# EX_02                                                                                                                                                                                # DATE : 07/03/2024
+# EX_02                                                                                                                                                                               
+# DATE : 07/03/2024
 
 # AIM:
 To study and implement DDL commands and different types of constraints.
@@ -36,7 +37,6 @@ It is used to modify the name of the existing database object.
 
 # CONSTRAINTS:
 Constraints are used to specify rules for the data in a table. If there is any violation between the constraint and the data action, the action is aborted by the constraint. It can be specified when the table is created (using CREATE TABLE statement) or after the table is created (using ALTER TABLE statement). 
-
 ## 1. NOT NULL: 
 When a column is defined as NOTNULL, then that column becomes a mandatory column. It implies that a value must be entered into the column if the record is to be accepted for storage in the table. 
 ### Syntax: 
@@ -70,5 +70,120 @@ CREATE TABLE Table_Name(column_name data_type(size) FOREIGN KEY(column_name) REF
 The DEFAULT constraint is used to insert a default value into a column. The default value will be added to all new records, if no other value is specified. 
 ### Syntax: 
 CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
+
+# MODULE:
+## QUESTION 1:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/705195e6-3a5a-458c-b898-9f481e253561)
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/58c6567f-36d7-430b-ae68-d98b7b2efca2)
+
+## QUESTION 2:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/db6d3054-cb70-4d46-ba23-badd36bde721)
+
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/4d9db0a6-4154-4fda-82cd-7d55ca6c7d57)
+
+## QUESTION 3:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/5356bd72-5ac1-4cc2-bc3a-b17b56e3a679)
+
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/c27f46ff-4215-485d-9414-c1c789c623d2)
+
+
+## QUESTION 4:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/227a7a6e-823e-48bb-bcc9-f14c2f3ac8f6)
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/8efc59f3-c9a7-4917-b43a-eec295e4e03e)
+
+
+## QUESTION 5:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/f2ee9bda-0d37-4092-a90a-4635c0a0bba5)
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/710ee542-195e-4d78-9b8a-6ba4dd52163c)
+
+## QUESTION 6:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/304092a2-d01e-4a5d-bfb9-ac73d446e104)
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/8eecbf68-b45b-49c8-bd2c-ecad8513612e)
+
+## QUESTION 7:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/7cdf752d-19b9-4e3a-8cb7-aeb6465a47da)
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/66ea018a-6b6c-43dd-a607-7cbab8ff09ae)
+
+## QUESTION 8:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/206430aa-7284-4e33-803a-30d096b8659c)
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/318b617c-abda-4f19-a442-eebd74a87446)
+
+## QUESTION 9:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/7ef3ae5a-f82c-4222-9fa9-e2e6dc2a3974)
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/c09ea269-ca76-4419-b0e0-d7033031a801)
+
+## QUESTION 10:
+
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/74daad6c-7eef-4a43-a0e5-2f911a9b3941)
+
+#### QUERY:
+```
+```
+#### OUTPUT:
+![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/4d5d3d9e-a668-4044-92c9-673eb159e5b4)
+
 
 
