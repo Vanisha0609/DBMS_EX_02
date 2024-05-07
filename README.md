@@ -74,7 +74,10 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 # MODULE:
 ## QUESTION 1:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/705195e6-3a5a-458c-b898-9f481e253561)
+
+![Screenshot (165)](https://github.com/Subalakshmisuresh/DBMS_EX_02/assets/121957896/5f90ff9b-7c3b-4943-8089-8472977cbfc3)
+
+
 
 #### QUERY:
 ```
@@ -88,7 +91,8 @@ CREATE TABLE Students (
 ```
 #### OUTPUT:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/58c6567f-36d7-430b-ae68-d98b7b2efca2)
+![Screenshot (166)](https://github.com/Subalakshmisuresh/DBMS_EX_02/assets/121957896/aa76f052-f7fe-4a6c-9e9d-14c4269906f1)
+
 
 ## QUESTION 2:
 
