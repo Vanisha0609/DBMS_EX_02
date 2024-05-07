@@ -82,10 +82,12 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 #### QUERY:
 ```
 CREATE TABLE Students (
-    rollno INTEGER PRIMARY KEY AUTOINCREMENT,
-    stu_name VARCHAR(50),
-    dob DATE,
-    year VARCHAR(30)
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name varchar(50),
+    address text,
+    grades varchar(10),
+    phone number,
+    year integer DEFAULT 2
 );
 
 ```
