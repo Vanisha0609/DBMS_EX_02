@@ -75,43 +75,42 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 ## QUESTION 1:
 
 
-![Screenshot (165)](https://github.com/Subalakshmisuresh/DBMS_EX_02/assets/121957896/5f90ff9b-7c3b-4943-8089-8472977cbfc3)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/90700199-a8c1-4d0f-b5c9-77ed10b17d71)
 
 
 
 #### QUERY:
 ```
-CREATE TABLE Students (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name varchar(50),
-    address text,
-    grades varchar(10),
-    phone number,
-    year integer DEFAULT 2
+CREATE TABLE Orders (
+    OrderID INTEGER PRIMARY KEY,
+    OrderNumber INTEGER,
+    PersonID INTEGER,
+    FOREIGN KEY (PersonID) REFERENCES Person(PersonID)
 );
-
 ```
 #### OUTPUT:
 
-![Screenshot (166)](https://github.com/Subalakshmisuresh/DBMS_EX_02/assets/121957896/aa76f052-f7fe-4a6c-9e9d-14c4269906f1)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/fda3faf7-0dbe-4fcc-b5dc-e8e759e49038)
+
 
 
 ## QUESTION 2:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/db6d3054-cb70-4d46-ba23-badd36bde721)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/1fea25ef-8186-4e02-9927-2fa0fa8473ba)
+
 
 #### QUERY:
 ```
-CREATE TABLE Students (
-    rollno INTEGER PRIMARY KEY AUTOINCREMENT,
-    stu_name VARCHAR(50),
-    year VARCHAR(30)
+CREATE TABLE employeedetails (
+    id INT,
+    first_name TEXT,
+    last_name TEXT,
+    FOREIGN KEY (id) REFERENCES customer(id)
 );
-
 ```
 #### OUTPUT:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/4d9db0a6-4154-4fda-82cd-7d55ca6c7d57)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/258af1c4-cfd6-44fa-b932-fe90a05bafed)
 
 ## QUESTION 3:
 
