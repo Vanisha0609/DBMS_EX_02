@@ -95,7 +95,7 @@ CREATE TABLE Orders (
 
 ## QUESTION 2:
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/1fea25ef-8186-4e02-9927-2fa0fa8473ba" width="700" height="300">
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/1fea25ef-8186-4e02-9927-2fa0fa8473ba)
 
 
 #### QUERY:
@@ -113,7 +113,7 @@ CREATE TABLE employeedetails (
 
 ## QUESTION 3:
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/0c3197f6-3355-4745-8bee-8e880410fd9d" width="700" height="300">
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/0c3197f6-3355-4745-8bee-8e880410fd9d)
 
 
 #### QUERY:
