@@ -175,7 +175,7 @@ ADD COLUMN email VARCHAR(5,2);
 
 ## QUESTION 7:
 
-![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/e7dbb085-e152-4ad1-871e-c23d4effd46e)
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/e7dbb085-e152-4ad1-871e-c23d4effd46e" width="750" height="300">
 
 #### QUERY:
 ```
@@ -184,11 +184,11 @@ RENAME COLUMN id TO employee_id;
 ```
 #### OUTPUT:
 
-![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/0e5835f7-9505-4e90-b7d2-ab26df5b78e7)
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/0e5835f7-9505-4e90-b7d2-ab26df5b78e7" width="800" height="230">
 
 ## QUESTION 8:
 
-![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/89c92685-7a0a-4ee4-b4b7-b5be13e31768)
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/89c92685-7a0a-4ee4-b4b7-b5be13e31768" width="700" height="300">
 
 #### QUERY:
 ```
@@ -206,7 +206,7 @@ VALUES
 
 ## QUESTION 9:
 
-![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/b2253974-c505-49f9-8b11-708ebebf3887)
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/b2253974-c505-49f9-8b11-708ebebf3887" width="700" height="300">
 
 
 #### QUERY:
