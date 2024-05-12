@@ -158,11 +158,11 @@ ADD discount DECIMAL(5,2);
 ```
 #### OUTPUT:
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/c66924d7-a23b-4330-b71f-b552d8211250" width="800" height="250">
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/c66924d7-a23b-4330-b71f-b552d8211250" width="800" height="230">
 
 ## QUESTION 6:
 
-![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/18855c5d-0580-4336-beea-19c673574e15)
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/18855c5d-0580-4336-beea-19c673574e15" width="750" height="300">
 
 #### QUERY:
 ```
@@ -171,7 +171,7 @@ ADD COLUMN email VARCHAR(5,2);
 ```
 #### OUTPUT:
 
-![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/a80672e5-0f6a-4654-920f-60ed41a67771)
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/a80672e5-0f6a-4654-920f-60ed41a67771" width="800" height="230">
 
 ## QUESTION 7:
 
