@@ -149,7 +149,7 @@ CREATE TABLE IF NOT EXISTS Students (
 
 ## QUESTION 5:
 
-![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/b61a4da5-7f16-4562-a8cd-1e39fe60a1ff)
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/b61a4da5-7f16-4562-a8cd-1e39fe60a1ff" width="700"  height="300">
 
 #### QUERY:
 ```
@@ -158,7 +158,7 @@ ADD discount DECIMAL(5,2);
 ```
 #### OUTPUT:
 
-![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/c66924d7-a23b-4330-b71f-b552d8211250)
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/c66924d7-a23b-4330-b71f-b552d8211250" width="800" height="250">
 
 ## QUESTION 6:
 
