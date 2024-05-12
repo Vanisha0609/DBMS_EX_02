@@ -133,7 +133,7 @@ CREATE TABLE Students (
 
 ## QUESTION 4:
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/852c52ea-e0b8-4ab8-9f77-21cdfe3b3d8a" width="700" height="300">
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/852c52ea-e0b8-4ab8-9f77-21cdfe3b3d8a" width="900" height="300">
 
 
 #### QUERY:
