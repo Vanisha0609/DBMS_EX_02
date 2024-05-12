@@ -114,125 +114,129 @@ CREATE TABLE employeedetails (
 
 ## QUESTION 3:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/5356bd72-5ac1-4cc2-bc3a-b17b56e3a679)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/0c3197f6-3355-4745-8bee-8e880410fd9d)
+
 
 #### QUERY:
 ```
-CREATE TABLE Orders (
-    OrderID INTEGER ,
-    OrderNumber INTEGER,
-    ProductName Varchar(30),
-    PersonID INTEGER NOT NULL
+CREATE TABLE Students (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name varchar(50),
+    address varchar(30),
+    grades varchar(10),
+    phone number(10)
 );
-
 ```
 #### OUTPUT:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/c27f46ff-4215-485d-9414-c1c789c623d2)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/7b78f75d-e16f-4b8e-bb45-6ddb5dd04b55)
+
 
 ## QUESTION 4:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/227a7a6e-823e-48bb-bcc9-f14c2f3ac8f6)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/852c52ea-e0b8-4ab8-9f77-21cdfe3b3d8a)
+
 
 #### QUERY:
 ```
-CREATE TABLE employeedetails AS
-SELECT id, first_name, last_name FROM customer WHERE 1=0;
-
+CREATE TABLE IF NOT EXISTS Students (
+    id NUMBER,
+    grade VARCHAR(50)
+);
 ```
 #### OUTPUT:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/8efc59f3-c9a7-4917-b43a-eec295e4e03e)
-
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/b64f6180-5279-439e-8fae-beb96b566e08)
 
 ## QUESTION 5:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/f2ee9bda-0d37-4092-a90a-4635c0a0bba5)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/b61a4da5-7f16-4562-a8cd-1e39fe60a1ff)
 
 #### QUERY:
 ```
-ALTER TABLE employee RENAME COLUMN id TO emp_id;
+ALTER TABLE customer
+ADD discount DECIMAL(5,2);
 ```
 #### OUTPUT:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/710ee542-195e-4d78-9b8a-6ba4dd52163c)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/c66924d7-a23b-4330-b71f-b552d8211250)
 
 ## QUESTION 6:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/304092a2-d01e-4a5d-bfb9-ac73d446e104)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/18855c5d-0580-4336-beea-19c673574e15)
 
 #### QUERY:
 ```
-ALTER TABLE employee ADD COLUMN birth_date date;
+ALTER TABLE customer
+ADD COLUMN email VARCHAR(5,2);
 ```
 #### OUTPUT:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/8eecbf68-b45b-49c8-bd2c-ecad8513612e)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/a80672e5-0f6a-4654-920f-60ed41a67771)
 
 ## QUESTION 7:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/7cdf752d-19b9-4e3a-8cb7-aeb6465a47da)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/e7dbb085-e152-4ad1-871e-c23d4effd46e)
 
 #### QUERY:
 ```
-ALTER TABLE Companies
-ADD COLUMN designation varchar(50);
-
-ALTER TABLE Companies
-ADD COLUMN net_salary number;
-
+ALTER TABLE employee
+RENAME COLUMN id TO employee_id;
 ```
 #### OUTPUT:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/66ea018a-6b6c-43dd-a607-7cbab8ff09ae)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/0e5835f7-9505-4e90-b7d2-ab26df5b78e7)
 
 ## QUESTION 8:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/206430aa-7284-4e33-803a-30d096b8659c)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/89c92685-7a0a-4ee4-b4b7-b5be13e31768)
 
 #### QUERY:
 ```
-INSERT INTO Student (RollNo, Name, Gender, Subject, MARKS)
+INSERT INTO Employee_db (EmployeeID, FirstName, LastName, Salary, HireDate)
 VALUES 
-    (3, 'Jeni', 'Female', 'English', 96),
-    (4, 'Bob Johnson', 'Male', 'History', 90),
-    (5, 'Sharvesh', 'Male', 'Botany', 97),
-    (6, 'Mathew', 'Male', 'Science', 85);
+    ('2', 'Jane', 'Smith', '60000', '2021-04-10'),
+    ('3', 'Bob', 'Johnson', '55000','2022-06-07'),
+    ('4', 'Alice', 'Williams', '70000', '2023-03-10'),
+    ('5', 'Charlie', 'Brown', '48000', '2020-04-20');
 
 ```
 #### OUTPUT:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/318b617c-abda-4f19-a442-eebd74a87446)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/44bbf1a7-7f00-45fc-aafc-8be403f1cf8e)
 
 ## QUESTION 9:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/7ef3ae5a-f82c-4222-9fa9-e2e6dc2a3974)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/b2253974-c505-49f9-8b11-708ebebf3887)
+
 
 #### QUERY:
 ```
-INSERT INTO new_customers (customer_id, name, email)
-SELECT customer_id, name, email
-FROM old_customers
-WHERE email LIKE '%@gmail.com';
-
+INSERT INTO ShiftSchedule (EmployeeID, EmployeeName, ShiftStartTime, ShiftEndTime)
+VALUES 
+    (104, 'David Wilson', '07:45:00', '16:15:00'),
+    (105, 'Emma Hall', '10:00:00', '18:30:00'),
+    (106, 'Frank White', '12:30:00', '21:00:00'),
+    (107, 'Grace Miller', '14:15:00', '22:45:00'),
+    (108, 'Henry Taylor', '09:00:00', '17:30:00');
 ```
 #### OUTPUT:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/c09ea269-ca76-4419-b0e0-d7033031a801)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/7f855ebb-cf85-4fd8-966c-21e36f144953)
 
 ## QUESTION 10:
 
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/74daad6c-7eef-4a43-a0e5-2f911a9b3941)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/e4a2b129-7172-4e12-a07e-76e52644873a)
 
 #### QUERY:
 ```
-INSERT INTO new_customers (customer_id, name, email)
-SELECT customer_id, name, email
-FROM old_customers
-WHERE email = 'abc@gmail.com';
+INSERT INTO DestinationTable (ID, Name, Age)
+SELECT ID, Name, Age
+FROM SourceTable
+WHERE Name = 'Kumar';
 ```
 #### OUTPUT:
-![image](https://github.com/Mena-Rossini/DBMS_EX_02/assets/102855266/4d5d3d9e-a668-4044-92c9-673eb159e5b4)
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/e1067f37-fa9e-438f-888a-0cbbc2988b54)
 
 # RESULT:
 Thus, we studied and implemented DDL commands and different types of constraints. 
