@@ -75,7 +75,7 @@ CREATE TABLE Table_Name(col_name1,col_name2,col_name3 DEFAULT ‘’);
 ## QUESTION 1:
 
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/90700199-a8c1-4d0f-b5c9-77ed10b17d71" width="700" height="200">
+<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/90700199-a8c1-4d0f-b5c9-77ed10b17d71" width="600" height="200">
 
 
 #### QUERY:
