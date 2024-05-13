@@ -149,7 +149,8 @@ CREATE TABLE IF NOT EXISTS Students (
 
 ## QUESTION 5:
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/b61a4da5-7f16-4562-a8cd-1e39fe60a1ff" width="700"  height="300">
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/00da4c11-3995-4b86-8a73-e9673bea1dd0)
+
 
 #### QUERY:
 ```
@@ -162,7 +163,7 @@ ADD discount DECIMAL(5,2);
 
 ## QUESTION 6:
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/18855c5d-0580-4336-beea-19c673574e15" width="750" height="300">
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/f050f47e-c8a5-4da0-9ca0-950414c4c27d)
 
 #### QUERY:
 ```
@@ -175,7 +176,7 @@ ADD COLUMN email VARCHAR(5,2);
 
 ## QUESTION 7:
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/e7dbb085-e152-4ad1-871e-c23d4effd46e" width="750" height="300">
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/1a2ee257-9f30-452b-ac3a-2f5a6a5d688b)
 
 #### QUERY:
 ```
@@ -188,7 +189,8 @@ RENAME COLUMN id TO employee_id;
 
 ## QUESTION 8:
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/89c92685-7a0a-4ee4-b4b7-b5be13e31768" width="700" height="300">
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/6b72d782-2de6-4269-a766-12edc7fae34f)
+
 
 #### QUERY:
 ```
@@ -206,7 +208,7 @@ VALUES
 
 ## QUESTION 9:
 
-<img src="https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/b2253974-c505-49f9-8b11-708ebebf3887" width="700" height="300">
+![image](https://github.com/Vanisha0609/DBMS_EX_02/assets/119104009/1913e8ed-8715-4d1f-91b7-4f67f959d89e)
 
 
 #### QUERY:
